@@ -150,7 +150,7 @@ main {
     background-color: rgba(50, 50, 50, .5)
 }
 main section article {
-    padding-bottom: 300px;
+    padding-top: 300px;
 }
 main section article h3{
     font-size: 100px;
@@ -165,6 +165,9 @@ main section article p {
     font-weight: bold;
 }
 /* about */
+#about .welcome {
+    padding-top: 0;
+}
 #about .welcome h3 span {
     font-weight: lighter;
 }
@@ -191,3 +194,13 @@ main section article p {
     left: -18%;
     z-index: -1;
 }
+#about .js_skills {
+    padding-top: 50px;
+}
+#about .js_skills h3 {
+    font-size: 70px;
+    font-weight: normal;
+}
+
+
+@import url(keyframes.css);
