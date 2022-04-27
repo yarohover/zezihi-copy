@@ -1,0 +1,15 @@
+/* skip menu */
+#skip_menu a {
+    background-color: black;
+    font-size: .8vw;
+    padding: .5vw;
+    border: 1px solid #fff;
+    color: #fff;
+    position: fixed;
+    top: -100%;
+    left: 0;
+}
+#skip_menu a:focus, #skip_menu a:active {
+    top: 0;
+}
+
