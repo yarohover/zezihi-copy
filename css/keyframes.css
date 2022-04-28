@@ -1,0 +1,49 @@
+@keyframes skills_html {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes skills_css {
+    0% {left: 0;}
+    100% {left: 35%;}
+}
+@keyframes skills_js {
+    0% {
+        transform: translate(-50%,-50%) scale(0.8);
+    }
+    100% {
+        transform: translate(-50%,-50%) scale(1.5);
+    }
+}
+@keyframes skills_php1 {
+    0% {
+        transform: translate(0,0);  
+    }
+    100% {
+        transform: translate(0,-30%);  
+    }
+}
+@keyframes skills_php2 {
+    0% {
+        transform: rotate(120deg) translate(0,0);  
+    }
+    100% {
+        transform: rotate(120deg) translate(0,-30%);  
+    }
+}
+@keyframes skills_php3 {
+    0% {
+        transform: rotate(-120deg) translate(0,0);  
+    }
+    100% {
+        transform: rotate(-120deg) translate(0,-30%);  
+    }
+}
+@keyframes skills_rv {
+    0% {
+        transform: rotate(0);  
+    }
+    100% {
+        transform: rotate(360deg);  
+    }
+}
