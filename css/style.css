@@ -152,6 +152,11 @@ main {
     margin-right: 5vw;
     background-color: rgba(50, 50, 50, .5)
 }
+main section h2 {
+    font-size: 100px;
+    color:#fff;
+    font-weight: bold;
+}
 main section article {
     padding-top: 300px;
 }
@@ -408,6 +413,25 @@ main section article p {
 #about .keywords .positive figcaption {
     font-size: 3.5vw;
 }
+
+/* publish */
+#publish {
+    margin-top: 200px;
+}
+#publish h2 {
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 75px;
+}
+#publish h2 span {
+    display: block;
+    font-size: 65px;
+}
+#publish article {
+    padding-top: 100px;
+    display: flex;
+}
+
 
 
 
