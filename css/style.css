@@ -363,6 +363,7 @@ main section article p {
     display: block;
     position: absolute;
     transition: transform .5s;
+    z-index: -2;
 }
 #about .keywords figure:hover img {
     transform: scale(1.1);
