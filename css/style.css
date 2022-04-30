@@ -431,7 +431,72 @@ main section article p {
 #publish article {
     padding-top: 100px;
     display: flex;
+    width: 100%;
 }
+#publish article .num {
+    width: 30%;
+    text-align: center;
+}
+#publish article .num span {
+    display: block;
+    font-size: 250px;
+    line-height: 0.6;
+    font-weight: bold;
+    color: #fff;
+    -webkit-text-stroke: 1px rgba(255,255,255,0.5);
+}
+#publish article .content {
+    width: 70%;
+}
+#publish article .content .content_img {
+    width: 100%;
+    height: 0;
+    padding-bottom: 70%;
+    overflow: hidden;
+}
+#publish article .content .content_img img {
+    width: 100%;
+    display: block;
+}
+#publish article .content .content_text h4 {
+    margin-top: 25px;
+    padding-top: 7px;
+    border-top: 1px solid #999;
+    font-size: 46px;
+    font-weight: bold;
+    color: #fff;
+}
+#publish article .content .content_text p {
+    margin-top: 0;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: normal;
+}
+#publish article .content .content_text a {
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 2;
+    transition: color .3s;
+}
+#publish article .content .content_text a:hover {
+    color: #ccc;
+}
+#publish .responsive .content .content_img img {
+    width: 150%;
+    left: -25%;
+}
+#publish .megabox .content .content_img img {
+    top: -70%;
+}
+#publish .fursys .content .content_img img {
+    top:-65%;
+}
+#publish .desert39 .content .content_img img {
+    top: -34%;
+}
+
 
 
 

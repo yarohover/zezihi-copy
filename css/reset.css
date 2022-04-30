@@ -20,7 +20,7 @@ body, button, input, select, table, textarea {font-size:12px;line-height:1.4;col
 h1, h2, h3, h4, h5, h6 {font-size:inherit;font-weight: normal;}
 address,cite,code,em,i{font-style:normal;font-weight:normal;}
 a {color:inherit;text-decoration:none}
-a:hover {text-decoration:underline}
+a:hover {text-decoration:none}
 
 /* Normalize */
 select { appearance:none;}
@@ -54,3 +54,12 @@ legend,
 .hide {overflow: hidden; display:block; position:absolute; border: 0; width: 1px; height: 1px; clip: rect(1px, 1px, 1px, 1px);}
 .skip { position: absolute; left: 0; right: 0; top:-100%; transition: all .5s; line-height: 5rem; background: #000; color:#fff; text-align: center; z-index: 100;}
 .skip:focus { top: 0; }
+
+/* Custom */
+figure {
+    position: relative;
+}
+img {
+    position:absolute;
+    z-index: -2;
+}
