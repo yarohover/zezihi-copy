@@ -2,6 +2,8 @@
 
 body {
     background-color: #efefef;
+    position: relative;
+    z-index: -100;
 }
 
 /* skip menu */
@@ -450,11 +452,14 @@ section article p {
     line-height: .9;
     margin-top: -2vw;
     font-weight: bold;
-    color: #fff;
+    color: transparent;
     -webkit-text-stroke: 1px rgba(255,255,255,0.5);
     position: sticky;
     top: calc(2.5vw + 90px);
-    transition: font-size .5s .3s;
+    transition: font-size .5s .3s, color .5s;
+}
+#publish article.active .num span {
+    color: #fff;
 }
 #publish article .content {
     width: 70%;
@@ -548,10 +553,10 @@ section article p {
     height: 71vh;
     padding-bottom: 7vh;
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: hidden;
     position: fixed;
     top: 0;
-    z-index: -1;
+    z-index: -99;
 }
 #wrap2 > h2 {
     text-transform: uppercase;
@@ -571,12 +576,13 @@ section article p {
     display: flex;
     position: relative;
     margin-left: 50vw;
+    width: 300vw;
+    justify-content: flex-start;
 }
 #script article {
     width: 80vw;
     height: 100%;
     margin-left: 10vw;
-    background-color: gray;
     display: flex;
 }
 #script article .content_box {
@@ -596,7 +602,7 @@ section article p {
     float: right;
     width: 25vw;
     padding: 0 5vw;
-    padding-top: 22vh;
+    padding-top: 24vh;
 }
 #script article .text_box h3{
     font-size: 3vw;
@@ -613,6 +619,18 @@ section article p {
     padding-right: 100vw;
 }
 
+/* wrap3 */
+#wrap3 {
+    width: 100%;
+    height: 1000px;
+    background-color: transparent;
+    padding-top: 550vw;
+}
+#wrap3_inner {
+    width: 100%;
+    height: 1000px;
+    background-color: #efefef;
+}
 
 
 
