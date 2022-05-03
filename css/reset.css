@@ -61,5 +61,5 @@ figure {
 }
 img {
     position:absolute;
-    z-index: 99;
+    /* z-index: 99; */
 }
