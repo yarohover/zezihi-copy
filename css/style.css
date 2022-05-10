@@ -622,16 +622,50 @@ section article p {
 /* wrap3 */
 #wrap3 {
     width: 100%;
-    height: 1000px;
     background-color: transparent;
     padding-top: 550vw;
 }
 #wrap3_inner {
     width: 100%;
-    height: 1000px;
     background-color: #efefef;
 }
 
+/* css animation */
+#wrap3_inner .layout {
+    margin-left: 15vw;
+    margin-right: 5vw;
+    background-color: rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding-bottom: 300px;
+}
+#wrap3_inner .layout h2 {
+    color: #000;
+    font-weight: bold;
+}
+#wrap3_inner .layout .grid_box {
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
+}
+#wrap3_inner .layout .grid_box article {
+    display: inline-block;
+    padding-top: 0;
+}
+#wrap3_inner .layout .grid_box article .ani_bg {
+    height: 400px;
+    background-color: #fff;
+}
+#wrap3_inner .layout .grid_box article h3 {
+    font-size: 41px;
+    color: #000;
+}
+#wrap3_inner .layout .grid_box article p {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    color: #000;
+}
 
 
 

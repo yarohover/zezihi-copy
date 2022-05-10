@@ -42,7 +42,7 @@ let $script_wrap = document.querySelector('#second_sec #wrap2');
 // window scroll event
 window.addEventListener('scroll', function(){
     let winY = window.scrollY;
-    pubNum(winY);
+    pubNum(winY+100);
     if ($script_start < winY) {
         let gap = winY - $script_start;
         $script_wrap.scrollTo(gap,0);
