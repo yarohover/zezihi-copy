@@ -180,7 +180,7 @@ section article p {
     margin-left: 15vw;
     padding-top: 35vh;
     margin-right: 5vw;
-    background-color: rgba(50, 50, 50, .5);
+    /* background-color: rgba(50, 50, 50, .5); */
 }
 
 /* about */
@@ -360,7 +360,7 @@ section article p {
     text-align: right;
     font-weight: normal;
     font-size: 15px;
-    align-self: flex-end;    
+    align-self: flex-end;
 }
 #about .keywords figure {
     width: 100%;
@@ -666,8 +666,3 @@ section article p {
     margin-top: 0;
     color: #000;
 }
-
-
-
-
-
